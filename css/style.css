@@ -128,7 +128,8 @@ button {
 
 .hero {
     background-color: #2F303A;
-    height: 600px;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
  
 .hero-text {
@@ -140,13 +141,7 @@ button {
     text-transform: uppercase;
     color: #FFFFFF;
     width: 696px;
-    margin-top: 200px;
-}
-
-.hero-container {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+    margin: 0 auto;
 }
 
 .hero-btn {
@@ -165,14 +160,22 @@ button {
     padding-bottom: 10px;
     padding-left: 32px;
     border-radius: 4px;
+    margin: 0 auto;
     margin-top: 30px;
 }
 
 /*section about-us*/
+.about-us {
+    padding-top: 94px;
+}
+
 .description {
     display: flex;
     align-items: center;
-    padding-top: 94px;
+}
+
+.description-work {
+    width: 270px;
 }
 
 .description-work:not(:last-child) {
@@ -272,10 +275,8 @@ button {
     color: #FFFFFF;
     margin-top: 60px;
     margin-bottom: 20px;
-}
-
-.contact-info {
-    margin-top: 20px;
+    display: block;
+    margin-bottom: 20px;
 }
 
 .location {
@@ -316,7 +317,8 @@ button {
     justify-content: center;
     flex-wrap: wrap;
     gap: 8px;
-    padding-top: 100px;
+    margin-bottom: 50px;
+
 }
 
 .button {
@@ -360,11 +362,6 @@ button {
 }
 
 /*section sample-work*/
-.sample-work {
-    padding-top: 50px;
-    padding-bottom: 94px;
-}
-
 .portfolio-container {
     padding-left: 24px;
     padding-right: 24px;
